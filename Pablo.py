@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 st.title("Budgetting App")
-st.balloons()
+
 
 # CURRENCY SELECTION AND INCOME INPUT
 currency = st.selectbox("Select your currency", ["$ USD", "€ EUR", "₦ NGN", "£ GBP", "KSh KES", "GH₵ GHS", "R ZAR", "FCFA XAF", "CFA XOF", "TSh TZS"]) 
@@ -53,4 +53,4 @@ elif st.button("Leave my money"):
     st.error("Okay Greedy fool!")
 
 st.divider()
-st.caption('Created by Tofunmi! Inspired by Leke')
+st.caption('Created by Tofunmi! Inspired by Leke & Jummy')
